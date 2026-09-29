@@ -166,7 +166,7 @@ export const bosses = [
     },
     {
         id: 165,
-        nombre: "Trebor falso",
+        nombre: "Trevor falso",
         descripcion: "Zombie suplantando a Trevor",
         imagen: "/bosses/faketrevor.gif",
         tipo: "boss",

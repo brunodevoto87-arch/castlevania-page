@@ -455,7 +455,6 @@ h1, h2, h3 {
 }
 /* -------- Bestiario -------- */
 #bestiario-page {
-  display: none;
   padding: 48px 32px 64px;
   background: linear-gradient(180deg, rgba(11, 11, 13, 0.96), rgba(17, 12, 14, 0.96));
   min-height: 60vh;
@@ -958,4 +957,49 @@ footer {
 }
 .notifiaction-box.slide-out{
   animation: slideIn 0.3s ease-out reverse;
+}
+.scroll-buttons{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+.scroll-btn{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #8b0000, #4b0000);
+  color: goldenrod;
+  border: 2px solid goldenrod;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+.scroll-btn:hover{
+  background: goldenrod;
+  color: #8b0000;
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+}
+.scroll-btn:active{
+  transform: scale(0.95);
+}
+@media (max-width: 450px){
+  .scroll-buttons{
+    right: 15px;
+    bottom: 15px;
+  }
+  .scroll-btn{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
 }

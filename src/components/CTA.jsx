@@ -7,7 +7,7 @@ function CTA(){
                     <p>Sign up to receive news about Symphony of the Night</p>
                 </div>
                 <div className="right">
-                    <form className="cta-form" onSubtmit={(e) => e.preventDefault()}>
+                    <form className="cta-form" onSubmit={(e) => e.preventDefault()}>
                         <input  
                             type="email"
                             placeholder="Enter your email..."
