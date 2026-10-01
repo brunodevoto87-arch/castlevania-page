@@ -63,7 +63,7 @@ export const bosses = [
         drop: "ninguno",
         hp: 1100,
         exp: 2500,
-        ubicacion: "Pared exterior inversa"
+        ubicacion: "Pared exterior (reverse)"
     },
     {
         id: 156,
@@ -74,7 +74,7 @@ export const bosses = [
         drop: "ninguno",
         hp: 600,
         exp: 1200,
-        ubicacion: "Torre del reloj inverso"
+        ubicacion: "Torre del reloj (reverse)"
     },
     {
         id: 157,
@@ -107,7 +107,7 @@ export const bosses = [
         drop: "ninguno",
         hp: 777,
         exp: 2001,
-        ubicacion: "Caverna subterranea inversa"
+        ubicacion: "Caverna subterranea (reverse)"
     },
     {
         id: 160,

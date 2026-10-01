@@ -1,6 +1,8 @@
 import {useState, useMemo} from "react"
 import {bestiario} from "../data/monsters"
 import {bosses} from "../data/bosses"
+import {MonsterInverted} from "../data/monsterInverted"
+import {bossesInverted} from "../data/bossesInverted"
 import MonsterCard from "./MonsterCard"
 import BestiaryFilters from "./BestiaryFilters"
 
@@ -13,11 +15,17 @@ function normalizarTexto(texto){
 }
 function Bestiary({onBackHome}){
     const [currentList, setCurrentList] = useState("monsters");
+    const [isInverted, setIsInverted] = useState(false);
     const [searchName, setSearchName] = useState("");
     const [filterType, setFilterType] = useState("Todos");
     const [filterZone, setFilterZone] = useState("");
 
-    const listaActual = currentList === "monsters" ? bestiario : bosses;
+    const listaActual = useMemo(()=>{
+        if(isInverted){
+            return currentList === "monsters" ? MonsterInverted : bossesInverted;
+        }
+        return currentList === "monsters" ? bestiario : bosses;
+    }, [currentList, isInverted]);
 
     const types = useMemo(()=> {
         return ["Todos", ...new Set(listaActual.map((m)=>m.tipo))];
@@ -57,21 +65,28 @@ function Bestiary({onBackHome}){
         setFilterZone("");
     };
     return(
-        <div id="bestiario-page">
+        <div id="bestiario-page" className={isInverted ? "inverted" : ""}>
             <div className="bestiario-header">
-                <h2>Bestiario</h2>
-                <p>Creatures of the Castle</p>
+                <h2>{isInverted ? "Bestiario Invertido" : "Bestiario"}</h2>
+                <p>{isInverted
+                    ? "Inverted Castle Creatures"
+                    : "Creatures of the Castle"}</p>
                 <button onClick={onBackHome}>Volver al inicio</button>
+                <button className="btn-invertir" onClick={()=>setIsInverted(!isInverted)}>{isInverted ? "☀ Restaurar Castillo" : "🌑 Invertir Castillo"}</button>
             </div>
             <div className="bestiario-botones-lista">
                 <button
                 onClick={()=>switchList("monsters")} className={currentList === "monsters" ? "active" : ""}>
-                    Monstruos ({bestiario.length})
+                    {isInverted
+                    ? `Monstruos invertidos (${MonsterInverted.length})`
+                    : `Monstruos (${bestiario.length})`}
                 </button>
                 <button 
                     onClick={()=>switchList("bosses")}
                     className={currentList === "bosses" ? "active" : ""}>
-                        Bosses({bosses.length})
+                        {isInverted
+                        ? `Bosses invertidos (${bossesInverted.length})`
+                        : `Bosses (${bosses.length})`}
                 </button>
             </div>
             <BestiaryFilters 

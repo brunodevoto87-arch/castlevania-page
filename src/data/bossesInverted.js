@@ -1,0 +1,145 @@
+export const bossesInverted = [
+    {
+        id: 3001,
+        nombre: "Akmodan II",
+        descripcion: "Momia del antiguo Egipto",
+        imagen: "/bosses/akmodan2.gif",
+        tipo: "boss",
+        drop: "ninguno",
+        hp: 1200,
+        exp: 2500,
+        ubicacion: "La guarida de Alamuerte"
+    },
+    {
+        id: 3002,
+        nombre: "Belcebú",
+        descripcion: "Belcebú, señor de las moscas",
+        imagen: "/bosses/beelzebub.gif",
+        tipo: "boss",
+        drop: "ninguno",
+        hp: 2000,
+        exp: 4444,
+        ubicacion: "Laboratorio de nigromancia"
+    },
+    {
+        id: 3003,
+        nombre: "La Criatura",
+        descripcion: "Hecho con partes de cuerpo de poderosos guerreros",
+        imagen: "/bosses/creature.gif",
+        tipo: "boss",
+        drop: "ninguno",
+        hp: 1100,
+        exp: 2500,
+        ubicacion: "Pared exterior (reverse)"
+    },
+    {
+        id: 3004,
+        nombre: "Murcielago de alas Oscuras",
+        descripcion: "Murcielago vampiro gigante",
+        imagen: "/bosses/darkwingbat.gif",
+        tipo: "boss",
+        drop: "ninguno",
+        hp: 600,
+        exp: 1200,
+        ubicacion: "Torre del reloj (reverse)"
+    },
+    {
+        id: 3005,
+        nombre: "Muerte",
+        descripcion: "El mejor amigo de Dracula",
+        imagen: ["bosses/death.gif","/bosses/death-2.gif"],
+        tipo: "boss",
+        drop: "ninguno",
+        hp: 888,
+        exp: 4444,
+        ubicacion: "Cavernas Subterraneas"
+    },
+    {
+        id: 3006,
+        nombre: "Doppelganger lvl 40",
+        descripcion: "Demonio cambiaformas",
+        imagen: "/bosses/doppleganger40.gif",
+        tipo: "boss",
+        drop: "ninguno",
+        hp: 777,
+        exp: 2001,
+        ubicacion: "Caverna subterranea (reverse)"
+    },
+    {
+        id: 3007,
+        nombre: "Dracula, forma verdadera",
+        descripcion: "Señor de Valaquia, padre de Alucard",
+        imagen: "/bosses/dracula-3.gif",
+        tipo: "boss",
+        drop: "ninguno",
+        hp: 10000,
+        exp: "ninguna",
+        ubicacion: "Galeria de marmol negro"
+    },
+    {
+        id: 3008,
+        nombre: "Grant falso",
+        descripcion: "Zombie suplantando a Grant",
+        imagen: "/bosses/fakegrant.gif",
+        tipo: "boss",
+        drop: "ninguno",
+        hp: 800,
+        exp: 1200,
+        ubicacion: "Coliseo"
+    },
+    {
+        id: 3009,
+        nombre: "Sypha falsa",
+        descripcion: "Zombie suplantando a Sypha",
+        imagen: "/bosses/fakesypha.gif",
+        tipo: "boss",
+        drop: "ninguno",
+        hp: 1000,
+        exp: 1500,
+        ubicacion: "Coliseo"
+    },
+    {
+        id: 3010,
+        nombre: "Trevor falso",
+        descripcion: "Zombie suplantando a Trevor",
+        imagen: "/bosses/faketrevor.gif",
+        tipo: "boss",
+        drop: "ninguno",
+        hp: 800,
+        exp: 1200,
+        ubicacion: "Coliseo"
+    },
+    {
+        id: 3011,
+        nombre: "Galamoth",
+        descripcion: "Un ser magico con planes para gobernar el inframundo",
+        imagen: "/bosses/galamoth.gif",
+        tipo: "boss",
+        drop: "ninguno",
+        hp: 12000,
+        exp: 9999,
+        ubicacion: "Catacumbas Flotantes"
+    },
+    {
+        id: 3012,
+        nombre: "Medusa",
+        descripcion: "Demonio femenino, con cabeza de serpiente y mirada de piedra",
+        imagen: "/bosses/medusa.gif",
+        tipo: "boss",
+        drop: "ninguno",
+        hp: 1100,
+        exp: 2500,
+        ubicacion: "Anticapilla"
+    },
+    {
+        id: 3013,
+        nombre: "Shaft",
+        descripcion: "Sacerdote oscuro de Dracula",
+        imagen: "/bosses/shaft.gif",
+        tipo: "boss",
+        drop: "ninguno",
+        hp: 1300,
+        exp: "ninguna",
+        ubicacion: "Galeria de marmol negro"
+    },
+];

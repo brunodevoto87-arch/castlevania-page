@@ -61,7 +61,7 @@ export const bestiario = [
         imagen: "/monsters/calavera_de_piedra.png",
         tipo: "Enemigo elite",
         drop: "Ninguno",
-        ubicacion: "Galeria de Marmol negro, Coliseo invertido, Muro exterior invertido",
+        ubicacion: "Galeria de Marmol negro, Coliseo (reverse), Muro exterior (reverse)",
         hp: "???",
         exp: "ninguno"
     },
@@ -171,7 +171,7 @@ export const bestiario = [
         imagen: "/monsters/jackobones.gif",
         tipo: "Enemigo común",
         drop: "Shuriken, Estrella de fuego",
-        ubicacion: "Galeria de marmol negro, Cavernas invertidas, Entrada invertida, Muro exterior invertido",
+        ubicacion: "Galeria de marmol negro, Cavernas (reverse), Entrada (reverse), Muro exterior (reverse)",
         hp: 20,
         exp: 150
     },
@@ -215,7 +215,7 @@ export const bestiario = [
         imagen: "/monsters/nova_esqueleton.png",
         tipo: "Enemigo elite",
         drop: "Frasco de monstruo 3, Terminus Est",
-        ubicacion: "",
+        ubicacion: "Galeria de Marmol Negra, Cavernas (reverse), Entrada (reverse), Muro exterior (reverse)",
         hp: 20,
         exp: 444
     },
@@ -226,7 +226,7 @@ export const bestiario = [
         imagen: "/monsters/parantropo.png",
         tipo: "Enemigo elite",
         drop: "Guantelete, Anillo de Varda",
-        ubicacion: "Coliseo, Muro exterior inverso",
+        ubicacion: "Coliseo, Muro exterior (reverse)",
         hp: 100,
         exp: 50
     },
@@ -259,7 +259,7 @@ export const bestiario = [
         imagen: "/monsters/señor_calavera.png",
         tipo: "Enemigo elite",
         drop: "Cimitarra, Escudo de calavera",
-        ubicacion: "Torre del reloj, Retorno",
+        ubicacion: "Torre del reloj, Torreon (reverse)",
         hp: 60,
         exp: 50
     },
@@ -281,7 +281,7 @@ export const bestiario = [
         imagen: "/monsters/yorick.gif",
         tipo: "Enemigo elite",
         drop: "Frasco de monstruo 3, Escudo de calavera",
-        ubicacion: "Mantener al reves",
+        ubicacion: "Muro del Castillo (reverse)",
         hp: 10,
         exp: 300
     },
@@ -391,7 +391,7 @@ export const bestiario = [
         imagen: "/monsters/medusahead.gif",
         tipo: "Enemigo elite",
         drop: "Piedra resistente, Escudo de Medusa",
-        ubicacion: "Galeria de Marmol Negro, Torre del Reloj,Guarida de Alamuerte, Muralla exterior, Torre del reloj invertida",
+        ubicacion: "Galeria de Marmol Negro, Torre del Reloj,Guarida de Alamuerte, Muralla exterior, Torre del reloj (reverse)",
         hp: 12,
         exp: 20
     },
@@ -402,7 +402,7 @@ export const bestiario = [
         imagen: "/monsters/medusahead-2.gif",
         tipo: "Enemigo elite",
         drop: "Piedra resistente, Escudo de Medusa",
-        ubicacion: "Galería de Mármol Negro, Torre del Reloj, Guarida del Alamuerte, Muralla Exterior, Torre del Reloj Invertida",
+        ubicacion: "Galería de Mármol Negro, Torre del Reloj, Guarida del Alamuerte, Muralla Exterior, Torre del Reloj (reverse)",
         hp: 12,
         exp: 30
     },
@@ -413,7 +413,7 @@ export const bestiario = [
         imagen: "/monsters/hombre_lobo_(enemigo).png",
         tipo: "Enemigo elite",
         drop: "Puño de hierro, Yasutsuna",
-        ubicacion: "Coliseo Inverso",
+        ubicacion: "Coliseo (reverse)",
         hp: 280,
         exp: 200
     },
@@ -435,7 +435,7 @@ export const bestiario = [
         imagen: "/monsters/huargo_de_fuego.png",
         tipo: "Enemigo elite",
         drop: "Turquesa, Moneda Karma",
-        ubicacion: "Cavernas Inversas",
+        ubicacion: "Cavernas (reverse)",
         hp: 200,
         exp: 160
     },
@@ -446,7 +446,7 @@ export const bestiario = [
         imagen: "/monsters/wargrider.gif",
         tipo: "Enemigo elite",
         drop: "ninguno",
-        ubicacion: "Entrada Inversa",
+        ubicacion: "Entrada (reverse)",
         hp: 120,
         exp: 160
     },
@@ -501,7 +501,7 @@ export const bestiario = [
         imagen: "/monsters/pulpo_oscuro.png",
         tipo: "Enemigo elite",
         drop: "Sushi, te verde",
-        ubicacion: "Cavernas Inversas",
+        ubicacion: "Cavernas (reverse)",
         hp: 280,
         exp: 120
     },
@@ -512,7 +512,7 @@ export const bestiario = [
         imagen: "/monsters/pajaro_dodo.png",
         tipo: "Enemigo común",
         drop: "Broche de Corazon, Espada Runica",
-        ubicacion: "Entrada Inversa",
+        ubicacion: "Entrada (reverse)",
         hp: 2,
         exp: 111
     },
@@ -710,7 +710,7 @@ export const bestiario = [
         imagen: "/monsters/bluevenusweed.gif",
         tipo: "Enemigo común",
         drop: "Zweihander, Refrescante para el corazon",
-        ubicacion: "Cavernas inversa, Entrada inversa",
+        ubicacion: "Cavernas (reverse), Entrada (reverse)",
         hp: 100,
         exp: 1000
     },
@@ -754,7 +754,7 @@ export const bestiario = [
         imagen: "/monsters/azaghal.png",
         tipo: "Enemigo elite",
         drop: "Piedra del pacto, Hoja del Luto",
-        ubicacion: "Coliseo inverso",
+        ubicacion: "Coliseo (reverse)",
         hp: 330,
         exp: 700
     },
@@ -776,7 +776,7 @@ export const bestiario = [
         imagen: "/monsters/caballero_bomba.png",
         tipo: "Enemigo común",
         drop: "Tnt, Dinamita",
-        ubicacion: "Torre del reloj inverso",
+        ubicacion: "Torre del reloj (reverse)",
         hp: 46,
         exp: 140
     },
@@ -798,7 +798,7 @@ export const bestiario = [
         imagen: "/monsters/caballero_de_roca.png",
         tipo: "Enemigo elite",
         drop: "Nudillos con joyas, Armadura de platino",
-        ubicacion: "Cavernas inversas",
+        ubicacion: "Cavernas (reverse)",
         hp: 160,
         exp: 250
     },
@@ -809,7 +809,7 @@ export const bestiario = [
         imagen: "/monsters/caballaero_del_valhalla.png",
         tipo: "Enemigo elite",
         drop: "Estoc, Claymore",
-        ubicacion: "Coliseo, Aposentos de Olrox, Torre del reloj invertida",
+        ubicacion: "Coliseo, Aposentos de Olrox, Torre del reloj (reverse)",
         hp: 161,
         exp: 100
     },
@@ -820,7 +820,7 @@ export const bestiario = [
         imagen: "/monsters/caballero_encapuchado.png",
         tipo: "Enemigo común",
         drop: "Flamberge, Espada celestial",
-        ubicacion: "Torre del reloj, Torre del reloj inversa",
+        ubicacion: "Torre del reloj, Torre del reloj (reverse)",
         hp: 65,
         exp: 80
     },
@@ -941,7 +941,7 @@ export const bestiario = [
         imagen: "/monsters/lapida_sepulcral.png",
         tipo: "Enemigo elite",
         drop: "Katana, te verde",
-        ubicacion: "Mantener al reves",
+        ubicacion: "Torreon (reverse)",
         hp: 5,
         exp: 88
     },
@@ -985,7 +985,7 @@ export const bestiario = [
         imagen: "/monsters/troll_de_las_cavernas.png",
         tipo: "Enemigo elite",
         drop: "Bomba de Neutrones, Lapiz Lazuli",
-        ubicacion: "Entrada inversa",
+        ubicacion: "Cavernas (reverse)",
         hp: 88,
         exp: 333
     },
@@ -996,7 +996,7 @@ export const bestiario = [
         imagen: "/monsters/minotauro_(enemigo).png",
         tipo: "Enemigo elite",
         drop: "Solomillo, Armadura de furia",
-        ubicacion: "Coliseo inverso",
+        ubicacion: "Coliseo (reverse)",
         hp: 320,
         exp: 400
     },
@@ -1084,7 +1084,7 @@ export const bestiario = [
         imagen: "/monsters/capsula_de_globo.png",
         tipo: "Enemigo común",
         drop: "ninguno",
-        ubicacion: "Anti-Capilla, Cavernas inversas",
+        ubicacion: "Anti-Capilla, Cavernas (reverse)",
         hp: 3,
         exp: 88
     },
