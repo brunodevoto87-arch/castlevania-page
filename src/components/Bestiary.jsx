@@ -38,7 +38,8 @@ function Bestiary({onBackHome}){
             m.ubicacion.split(",").forEach((zona)=>{
                 const zonaLimpia = zona.trim();
                 const clave = normalizarTexto(zonaLimpia);
-                if(zonaLimpia && !zonasMap.has(clave)){
+
+                if(zonaLimpia && !clave.includes("reverse") && !zonasMap.has(clave)){
                     zonasMap.set(clave, zonaLimpia);
                 }
             });
@@ -52,9 +53,20 @@ function Bestiary({onBackHome}){
         return listaActual.filter((monstruo)=>{
             const coincideNombre = normalizarTexto(monstruo.nombre).includes(nombreBuscado);
             const coincideTipo = filterType === "Todos" || monstruo.tipo === filterType;
-            const coincideZona = !zonaSeleccionada || (monstruo.ubicacion && monstruo.ubicacion
-                .split(",")
-                .some((zona) => normalizarTexto(zona) === zonaSeleccionada));
+
+            let coincideZona = true;
+            if(filterZone === "__ALL_REVERSE__"){
+                coincideZona = monstruo.ubicacion
+                ? monstruo.ubicacion.toLowerCase().includes("(reverse)")
+                : false;
+            }
+            else if (zonaSeleccionada){
+                coincideZona = monstruo.ubicacion
+                ? monstruo.ubicacion 
+                    .split(",")
+                    .some((zona) => normalizarTexto(zona) === zonaSeleccionada)
+                : false;
+            }
             return coincideNombre && coincideTipo && coincideZona;
         });
     }, [listaActual, searchName, filterType, filterZone]);

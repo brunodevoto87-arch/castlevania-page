@@ -34,7 +34,7 @@ function BestiaryFilters({
                 onChange={(e)=> setFilterZone(e.target.value)}
             >
                 <option value="">Todas las zonas</option>
-                <option value="__castillo_invertido__">
+                <option value="__ALL_REVERSE__">
                   Castillo invertido (todas sus zonas)
                 </option>
                 {zones.map((zona)=>(

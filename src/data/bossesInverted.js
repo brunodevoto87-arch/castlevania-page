@@ -8,7 +8,7 @@ export const bossesInverted = [
         drop: "ninguno",
         hp: 1200,
         exp: 2500,
-        ubicacion: "La guarida de Alamuerte"
+        ubicacion: "La guarida de Alamuerte (reverse)"
     },
     {
         id: 3002,
@@ -19,7 +19,7 @@ export const bossesInverted = [
         drop: "ninguno",
         hp: 2000,
         exp: 4444,
-        ubicacion: "Laboratorio de nigromancia"
+        ubicacion: "Laboratorio de nigromancia (reverse)"
     },
     {
         id: 3003,
@@ -52,7 +52,7 @@ export const bossesInverted = [
         drop: "ninguno",
         hp: 888,
         exp: 4444,
-        ubicacion: "Cavernas Subterraneas"
+        ubicacion: "Cavernas Subterraneas (reverse)"
     },
     {
         id: 3006,
@@ -74,7 +74,7 @@ export const bossesInverted = [
         drop: "ninguno",
         hp: 10000,
         exp: "ninguna",
-        ubicacion: "Galeria de marmol negro"
+        ubicacion: "Galeria de marmol negro (reverse)"
     },
     {
         id: 3008,
@@ -85,7 +85,7 @@ export const bossesInverted = [
         drop: "ninguno",
         hp: 800,
         exp: 1200,
-        ubicacion: "Coliseo"
+        ubicacion: "Coliseo (reverse)"
     },
     {
         id: 3009,
@@ -96,7 +96,7 @@ export const bossesInverted = [
         drop: "ninguno",
         hp: 1000,
         exp: 1500,
-        ubicacion: "Coliseo"
+        ubicacion: "Coliseo (reverse)"
     },
     {
         id: 3010,
@@ -107,7 +107,7 @@ export const bossesInverted = [
         drop: "ninguno",
         hp: 800,
         exp: 1200,
-        ubicacion: "Coliseo"
+        ubicacion: "Coliseo (reverse)"
     },
     {
         id: 3011,
@@ -118,7 +118,7 @@ export const bossesInverted = [
         drop: "ninguno",
         hp: 12000,
         exp: 9999,
-        ubicacion: "Catacumbas Flotantes"
+        ubicacion: "Catacumbas Flotantes (reverse)"
     },
     {
         id: 3012,
@@ -129,7 +129,7 @@ export const bossesInverted = [
         drop: "ninguno",
         hp: 1100,
         exp: 2500,
-        ubicacion: "Anticapilla"
+        ubicacion: "Anticapilla (reverse)"
     },
     {
         id: 3013,
@@ -140,6 +140,6 @@ export const bossesInverted = [
         drop: "ninguno",
         hp: 1300,
         exp: "ninguna",
-        ubicacion: "Galeria de marmol negro"
+        ubicacion: "Galeria de marmol negro (reverse)"
     },
 ];
