@@ -7,31 +7,62 @@ import CTA from "./components/CTA"
 import MusicPlayer from "./components/MusicPlayer"
 import Bestiary from "./components/Bestiary"
 import ScrollButtons from "./components/ScrollButtons"
+import History from "./components/History"
+import AboutAlucard from "./components/AboutAlucard"
+import DraculasCastle from "./components/DraculasCastle"
 import Footer from "./components/Footer"
 import "./index.css";
 function App(){
   const [page, setPage] = useState("home");
-  const goToBestiary = () => setPage("bestiary");
-  const goToHome = () => setPage("home");
+
+  const goTo = (target) => setPage(target);
+
   if (page === "bestiary"){
     return (
       <>
-        <Bestiary onBackHome={goToHome} />
+        <Bestiary onBackHome={() => goTo("home")}/>
         <ScrollButtons />
       </>
-    )
+    );
+  }
+
+  if (page === "history"){
+    return(
+      <>
+      <History onBackHome={() => goTo("home")} />
+      <ScrollButtons />
+      </>
+    );
+  }
+
+  if (page === "alucard"){
+    return(
+      <>
+      <AboutAlucard onBackHome={() => goTo("home")}/>
+      <ScrollButtons />
+      </>
+    );
+  }
+
+  if (page === "castle"){
+    return(
+      <>
+      <DraculasCastle onBackHome={() => goTo("home")} />
+      <ScrollButtons />
+      </>
+    );
   }
   return(
-    <div>
-      <Header onGoToBestiary={goToBestiary} />
-      <Hero />
+    <>
+      <Header onNavigate={goTo} />
+      <Hero onGoToBestiary={() => goTo("bestiary")}/>
       <Features />
       <Quote />
       <CTA />
       <MusicPlayer />
       <Footer />
       <ScrollButtons />
-    </div>
+    </>
   );
 }
 export default App;

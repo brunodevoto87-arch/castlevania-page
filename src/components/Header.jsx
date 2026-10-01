@@ -1,16 +1,27 @@
-function Header({onGoToBestiary}){
+function Header({onNavigate}){
     return(
         <div className="header">
-            <h1 className="logo">Castlevania: Simphony of the Night</h1>
+            <h1 className="logo" onClick={() => onNavigate("home")} style={{cursor:"pointer"}}>Castlevania: Simphony of the Night</h1>
             <nav className="menu-nav">
                 <ul>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">About Alucard</a></li>
-                    <li><a href="#">Dracula´s Castle</a></li>
+                    <li>
+                        <span onClick={()=> onNavigate("history")} style={{cursor:"pointer"}}>
+                        History
+                        </span>
+                    </li>
+                    <li>
+                        <span onClick={()=> onNavigate("alucard")} style={{cursor:"pointer"}}>About Alucard
+                        </span>
+                    </li>
+                    <li>
+                        <span onClick={()=>onNavigate("castle")} style={{cursor:"pointer"}}>Dracula´s Castle
+                        </span>
+                    </li>
                     <li>
                         <span 
                             id="btn-bestiario" 
-                            style={{cursor: "pointer"}} onClick={onGoToBestiary}
+                            onClick={()=>onNavigate("bestiary")}
+                            style={{cursor:"pointer"}}
                         >
                             Bestiary
                         </span>
