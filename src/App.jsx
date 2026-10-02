@@ -5,6 +5,7 @@ import Features from "./components/Features"
 import Quote from "./components/Quote"
 import CTA from "./components/CTA"
 import MusicPlayer from "./components/MusicPlayer"
+import Relics from "./components/Relics"
 import Bestiary from "./components/Bestiary"
 import ScrollButtons from "./components/ScrollButtons"
 import History from "./components/History"
@@ -62,10 +63,22 @@ function App(){
       </>
     );
   }
+  if(page === "relics"){
+    return(
+      <>
+        <Relics onBackHome={()=> goTo("home")} />
+        <ScrollButtons />
+      </>
+    )
+  };
   return(
     <>
       <Header onNavigate={goTo} />
-      <Hero onGoToBestiary={() => goTo("bestiary")}/>
+      <Hero 
+        onGoToBestiary={() => goTo("bestiary")}
+        onGoToCastle={()=>goTo("castle")}
+      />
+
       <Features onNavigate={goTo} />
       <Quote />
       <CTA />

@@ -1349,3 +1349,108 @@ footer {
     font-size: 1.3rem;
   }
 }
+/* ==========================
+   RELIQUIAS
+   ========================== */
+
+.tarjeta-reliquia {
+  position: relative;
+  background: linear-gradient(180deg, rgba(22, 22, 24, 0.96), rgba(8, 8, 10, 0.98));
+  border: 2px solid #d4af37;
+  border-radius: 14px;
+  padding: 18px 18px 20px;
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 420px;
+  overflow: hidden;
+}
+
+.tarjeta-reliquia::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.08), rgba(139, 0, 0, 0.05), transparent 55%);
+  pointer-events: none;
+}
+
+.tarjeta-reliquia:hover {
+  transform: translateY(-7px) scale(1.01);
+  border-color: #f5d76a;
+  box-shadow: 0 12px 28px rgba(212, 175, 55, 0.28), 0 0 18px rgba(139, 0, 0, 0.3);
+}
+
+.tarjeta-reliquia .imagen-contenedor {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, rgba(20, 20, 22, 0.9), rgba(10, 10, 12, 0.95));
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarjeta-reliquia img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 14px rgba(0, 0, 0, 0.45));
+}
+
+.tarjeta-reliquia h3 {
+  position: relative;
+  z-index: 1;
+  color: #f7f0d0;
+  font-size: 1.1rem;
+  margin: 10px 0 8px;
+  font-family: "Cinzel", serif;
+  letter-spacing: 0.06em;
+}
+
+.descripcion-reliquia {
+  position: relative;
+  z-index: 1;
+  color: #ccc;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-family: "Cormorant Garamond", serif;
+  min-height: 3.6em;
+  margin-bottom: 12px;
+}
+
+.stats-reliquia {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  margin-top: auto;
+  border-top: 1px solid #d4af37;
+  padding-top: 12px;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.85rem;
+}
+
+.stats-reliquia p {
+  display: block;
+  margin: 4px 0;
+  color: #d4af37;
+  font-weight: 600;
+  text-align: left;
+}
+
+.stats-reliquia p span:last-child {
+  color: #ffffff;
+  font-weight: normal;
+  margin-left: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}

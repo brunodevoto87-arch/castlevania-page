@@ -38,6 +38,8 @@ function Features({onNavigate}){
                     onClick={
                         feature.title === "Inverted Castle"
                         ? () => onNavigate("bestiary", {inverted:true})
+                        : feature.title === "Relics of Power"
+                        ? () => onNavigate("relics")
                         : undefined
                     }
                     />

@@ -24,7 +24,7 @@ const characters = [
     },
 ];
 
-function Hero(onGoToBestiary){
+function Hero({onGoToCastle}){
     const [showModal, setShowModal] = useState(false);
     const [selectedCharacter, setSelectedCharacter] = useState(null);
 
@@ -58,7 +58,7 @@ function Hero(onGoToBestiary){
             </div>
         </div>
         {showModal && (
-            <EntryModal onEnter={onGoToBestiary} onClose={() =>setShowModal(false)} />
+            <EntryModal onEnter={onGoToCastle} onClose={() =>setShowModal(false)} />
         )}
         {selectedCharacter && (
             <CharacterModal
