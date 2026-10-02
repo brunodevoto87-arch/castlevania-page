@@ -24,7 +24,7 @@ const features = [
 
 ];
 
-function Features(){
+function Features({onNavigate}){
     return(
         <div className="features-section">
             <h2>Explore the Castle</h2>
@@ -35,6 +35,11 @@ function Features(){
                     image={feature.image}
                     title={feature.title}
                     alt={feature.alt}
+                    onClick={
+                        feature.title === "Inverted Castle"
+                        ? () => onNavigate("bestiary", {inverted:true})
+                        : undefined
+                    }
                     />
                 ))}
             </div>

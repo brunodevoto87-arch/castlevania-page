@@ -13,9 +13,9 @@ function normalizarTexto(texto){
     .toLowerCase()
     .trim();
 }
-function Bestiary({onBackHome}){
+function Bestiary({onBackHome, initialInverted = false}){
     const [currentList, setCurrentList] = useState("monsters");
-    const [isInverted, setIsInverted] = useState(false);
+    const [isInverted, setIsInverted] = useState(initialInverted);
     const [searchName, setSearchName] = useState("");
     const [filterType, setFilterType] = useState("Todos");
     const [filterZone, setFilterZone] = useState("");

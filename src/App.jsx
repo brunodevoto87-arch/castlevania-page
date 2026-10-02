@@ -14,13 +14,23 @@ import Footer from "./components/Footer"
 import "./index.css";
 function App(){
   const [page, setPage] = useState("home");
+  const [bestiaryInverted, setBestiaryInverted] = useState(false);
 
-  const goTo = (target) => setPage(target);
+  const goTo = (target, options = {}) =>{
+    setPage(target);
+    if (options.inverted !==undefined){
+      setBestiaryInverted(options.inverted);
+    }
+    window.scrollTo({top: 0, behavior: "smooth"});
+  };
 
   if (page === "bestiary"){
     return (
       <>
-        <Bestiary onBackHome={() => goTo("home")}/>
+        <Bestiary 
+        onBackHome={() => goTo("home")}
+        initialInverted= {bestiaryInverted}
+        />
         <ScrollButtons />
       </>
     );
@@ -56,7 +66,7 @@ function App(){
     <>
       <Header onNavigate={goTo} />
       <Hero onGoToBestiary={() => goTo("bestiary")}/>
-      <Features />
+      <Features onNavigate={goTo} />
       <Quote />
       <CTA />
       <MusicPlayer />
