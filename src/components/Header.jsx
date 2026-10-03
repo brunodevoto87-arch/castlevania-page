@@ -26,13 +26,6 @@ function Header({onNavigate}){
                             Bestiary
                         </span>
                     </li>
-                    <li>
-                        <span
-                            onClick={()=> onNavigate("relics")}
-                            style= {{cursor: "pointer"}}>
-                                Relics
-                        </span>
-                    </li>
                 </ul>
             </nav>
         </div>

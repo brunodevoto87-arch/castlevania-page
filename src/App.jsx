@@ -1,4 +1,5 @@
 import {useState} from "react"
+import BossesModal from "./components/BossesModal"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Features from "./components/Features"
@@ -16,6 +17,7 @@ import "./index.css";
 function App(){
   const [page, setPage] = useState("home");
   const [bestiaryInverted, setBestiaryInverted] = useState(false);
+  const [showBossModal, setShowBossModal] = useState(false);
 
   const goTo = (target, options = {}) =>{
     setPage(target);
@@ -78,13 +80,21 @@ function App(){
         onGoToBestiary={() => goTo("bestiary")}
         onGoToCastle={()=>goTo("castle")}
       />
-
-      <Features onNavigate={goTo} />
+      <section className="music-section">
+        <h2>Musica del Castillo</h2>
+        <p>Escuchar toda la musica de Simphony of the Night</p>
+        <MusicPlayer />
+      </section>
+      <Features 
+      onNavigate={goTo}
+      onOpenBossModal={()=>setShowBossModal(true)} />
       <Quote />
       <CTA />
-      <MusicPlayer />
       <Footer />
       <ScrollButtons />
+      {showBossModal &&(
+        <BossesModal onClose={() => setShowBossModal(false)}/>
+      )}
     </>
   );
 }

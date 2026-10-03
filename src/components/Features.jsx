@@ -24,7 +24,7 @@ const features = [
 
 ];
 
-function Features({onNavigate}){
+function Features({onNavigate, onOpenBossModal}){
     return(
         <div className="features-section">
             <h2>Explore the Castle</h2>
@@ -40,6 +40,8 @@ function Features({onNavigate}){
                         ? () => onNavigate("bestiary", {inverted:true})
                         : feature.title === "Relics of Power"
                         ? () => onNavigate("relics")
+                        : feature.title === "Boss Battles"
+                        ? onOpenBossModal
                         : undefined
                     }
                     />
