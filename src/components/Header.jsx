@@ -1,7 +1,7 @@
 function Header({onNavigate}){
     return(
         <div className="header">
-            <h1 className="logo" onClick={() => onNavigate("home")} style={{cursor:"pointer"}}>Castlevania: Simphony of the Night</h1>
+            <h1 className="logo" onClick={() => onNavigate("home")} style={{cursor:"pointer"}}>Castlevania: Symphony of the Night</h1>
             <nav className="menu-nav">
                 <ul>
                     <li>

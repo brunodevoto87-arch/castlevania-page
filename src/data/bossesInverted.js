@@ -34,8 +34,8 @@ export const bossesInverted = [
     },
     {
         id: 3004,
-        nombre: "Murcielago de alas Oscuras",
-        descripcion: "Murcielago vampiro gigante",
+        nombre: "Murciélago de alas oscuras",
+        descripcion: "Murciélago vampiro gigante",
         imagen: "/bosses/darkwingbat.gif",
         tipo: "boss",
         drop: "ninguno",
@@ -46,13 +46,13 @@ export const bossesInverted = [
     {
         id: 3005,
         nombre: "Muerte",
-        descripcion: "El mejor amigo de Dracula",
+        descripcion: "El mejor amigo de Drácula",
         imagen: ["bosses/death.gif","/bosses/death-2.gif"],
         tipo: "boss",
         drop: "ninguno",
         hp: 888,
         exp: 4444,
-        ubicacion: "Cavernas Subterraneas (reverse)"
+        ubicacion: "Cavernas subterráneas (reverse)"
     },
     {
         id: 3006,
@@ -67,14 +67,14 @@ export const bossesInverted = [
     },
     {
         id: 3007,
-        nombre: "Dracula, forma verdadera",
+        nombre: "Drácula, forma verdadera",
         descripcion: "Señor de Valaquia, padre de Alucard",
         imagen: "/bosses/dracula-3.gif",
         tipo: "boss",
         drop: "ninguno",
         hp: 10000,
         exp: "ninguna",
-        ubicacion: "Galeria de marmol negro (reverse)"
+        ubicacion: "Galería de mármol negro (reverse)"
     },
     {
         id: 3008,
@@ -134,12 +134,12 @@ export const bossesInverted = [
     {
         id: 3013,
         nombre: "Shaft",
-        descripcion: "Sacerdote oscuro de Dracula",
+        descripcion: "Sacerdote oscuro de Drácula",
         imagen: "/bosses/shaft.gif",
         tipo: "boss",
         drop: "ninguno",
         hp: 1300,
         exp: "ninguna",
-        ubicacion: "Galeria de marmol negro (reverse)"
+        ubicacion: "Galería de mármol negro (reverse)"
     },
 ];

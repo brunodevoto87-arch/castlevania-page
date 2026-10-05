@@ -95,8 +95,8 @@ function App(){
         onGoToCastle={goToCastleWithMusic}
       />
       <section className="music-section">
-        <h2>Musica del Castillo</h2>
-        <p>Escuchar toda la musica de Simphony of the Night</p>
+        <h2>Música del castillo</h2>
+        <p>Escucha toda la música de Symphony of the Night</p>
         <MusicPlayer />
       </section>
       <Features 

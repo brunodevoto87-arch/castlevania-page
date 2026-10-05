@@ -50,7 +50,7 @@ export const bestiario = [
         imagen: "/monsters/cabeza_de_pescado.png",
         tipo: "Enemigo común",
         drop: "Resiste al hielo, Icebrand",
-        ubicacion: "Cavernas Subterraneas",
+        ubicacion: "Cavernas subterráneas",
         hp: 70,
         exp: 50
     },
@@ -61,7 +61,7 @@ export const bestiario = [
         imagen: "/monsters/calavera_de_piedra.png",
         tipo: "Enemigo elite",
         drop: "Ninguno",
-        ubicacion: "Galeria de Marmol negro, Coliseo (reverse), Muro exterior (reverse)",
+        ubicacion: "Galería de mármol negro, Coliseo (reverse), Muro exterior (reverse)",
         hp: "???",
         exp: "ninguno"
     },
@@ -105,7 +105,7 @@ export const bestiario = [
         imagen: "/monsters/esqueleto.png",
         tipo: "Enemigo común",
         drop: "Pocion de escudo, Frasco de monstruo 3",
-        ubicacion: "Laboratorio de alquimia, Catacumbas Flotantes, Galeria de Marmol, Muro exterior",
+        ubicacion: "Laboratorio de alquimia, Catacumbas Flotantes, Galería de mármol, Muro exterior",
         hp: 9,
         exp: 10
     },
@@ -116,7 +116,7 @@ export const bestiario = [
         imagen: "/monsters/esqueleto_arquero.png",
         tipo: "Enemigo común",
         drop: "$400, Misil Magico",
-        ubicacion: "Muro exterior, Cavernas Subterraneas",
+        ubicacion: "Muro exterior, Cavernas subterráneas",
         hp: 10,
         exp: 50
     },
@@ -149,7 +149,7 @@ export const bestiario = [
         imagen: "/monsters/esqueleto_de_simio.png",
         tipo: "Enemigo común",
         drop: "platano, TNT",
-        ubicacion: "Muro Exterior, Cavernas subterraneas",
+        ubicacion: "Muro Exterior, Cavernas subterráneas",
         hp: 10,
         exp: 20
     },
@@ -171,7 +171,7 @@ export const bestiario = [
         imagen: "/monsters/jackobones.gif",
         tipo: "Enemigo común",
         drop: "Shuriken, Estrella de fuego",
-        ubicacion: "Galeria de marmol negro, Cavernas (reverse), Entrada (reverse), Muro exterior (reverse)",
+        ubicacion: "Galería de mármol negro, Cavernas (reverse), Entrada (reverse), Muro exterior (reverse)",
         hp: 20,
         exp: 150
     },
@@ -182,7 +182,7 @@ export const bestiario = [
         imagen: "/monsters/lanzador.png",
         tipo: "Enemigo común",
         drop: "Escudo de cuero, Escudo de caballero",
-        ubicacion: "Galeria de Marmol",
+        ubicacion: "Galería de mármol",
         hp: 12,
         exp: 10
     },
@@ -215,7 +215,7 @@ export const bestiario = [
         imagen: "/monsters/nova_esqueleton.png",
         tipo: "Enemigo elite",
         drop: "Frasco de monstruo 3, Terminus Est",
-        ubicacion: "Galeria de Marmol Negra, Cavernas (reverse), Entrada (reverse), Muro exterior (reverse)",
+        ubicacion: "Galería de mármol negra, Cavernas (reverse), Entrada (reverse), Muro exterior (reverse)",
         hp: 20,
         exp: 444
     },
@@ -391,7 +391,7 @@ export const bestiario = [
         imagen: "/monsters/medusahead.gif",
         tipo: "Enemigo elite",
         drop: "Piedra resistente, Escudo de Medusa",
-        ubicacion: "Galeria de Marmol Negro, Torre del Reloj,Guarida de Alamuerte, Muralla exterior, Torre del reloj (reverse)",
+        ubicacion: "Galería de mármol Negro, Torre del Reloj,Guarida de Alamuerte, Muralla exterior, Torre del reloj (reverse)",
         hp: 12,
         exp: 20
     },
@@ -468,7 +468,7 @@ export const bestiario = [
         imagen: "/monsters/murcielago.png",
         tipo: "Enemigo común",
         drop: "Pocion, Frasco de monstruo 2",
-        ubicacion: "Cueva, Entrada, Catacumba Flotantes, Capilla Real, Cavernas Subterraneas",
+        ubicacion: "Cueva, Entrada, Catacumbas flotantes, Capilla Real, Cavernas subterráneas",
         hp: 1,
         exp: 1
     },
@@ -490,7 +490,7 @@ export const bestiario = [
         imagen: "/monsters/pez_asesino.png",
         tipo: "Enemigo común",
         drop: "Aquamarina, Sushi",
-        ubicacion: "Cavernas Subterraneas",
+        ubicacion: "Cavernas subterráneas",
         hp: 120,
         exp: 100
     },
@@ -523,7 +523,7 @@ export const bestiario = [
         imagen: "/monsters/frog.gif",
         tipo: "Enemigo común",
         drop: "Puño Americano, Pizza",
-        ubicacion: "Cavernas Subterraneas",
+        ubicacion: "Cavernas subterráneas",
         hp: 2,
         exp: 20
     },
@@ -534,7 +534,7 @@ export const bestiario = [
         imagen: "/monsters/toad.gif",
         tipo: "Enemigo común",
         drop: "Blue Knuckles, Pizza",
-        ubicacion: "Cavernas Subterraneas",
+        ubicacion: "Cavernas subterráneas",
         hp: 10,
         exp: 20
     },
@@ -555,8 +555,8 @@ export const bestiario = [
         descripcion: "Demonio de fuego y hielo. Parece reacio a luchar.",
         imagen: "/monsters/cthulhu.png",
         tipo: "Enemigo elite",
-        drop: "Pentagrama, Pentagrama de Murcielago",
-        ubicacion: "Guarida de Alamuerte, Galeria de Marmol, Laboratorio de nigromancia",
+        drop: "Pentagrama, Pentagrama de Murciélago",
+        ubicacion: "Guarida de Alamuerte, Galería de mármol, Laboratorio de nigromancia",
         hp: 200,
         exp: 100
     },
@@ -633,7 +633,7 @@ export const bestiario = [
         imagen: "/monsters/scyllawyrm.gif",
         tipo: "Enemigo elite",
         drop: "Ninguno",
-        ubicacion: "Cavernas Subterraneas",
+        ubicacion: "Cavernas subterráneas",
         hp: 130,
         exp: 100
     },
@@ -687,7 +687,7 @@ export const bestiario = [
         descripcion: "Regado con sangre humana.",
         imagen: "/monsters/venus.png",
         tipo: "Enemigo elite",
-        drop: "Diadema de coral, Refrescante para corazon",
+        drop: "Diadema de coral, Refrescante para corazón",
         ubicacion: "Mina abandonada",
         hp: 100,
         exp: 150
@@ -699,7 +699,7 @@ export const bestiario = [
         imagen: "/monsters/hierva_espinosa.png",
         tipo: "Enemigo común",
         drop: "Uvas, fresas",
-        ubicacion: "Mina abandonada, Galeria de marmol negro, Catacumbas, Biblioteca larga",
+        ubicacion: "Mina abandonada, Galería de mármol negro, Catacumbas, Biblioteca larga",
         hp: 12,
         exp: 20
     },
@@ -709,7 +709,7 @@ export const bestiario = [
         descripcion: "Hierba Venus avanzada. Alimentada con sangre de demonio.",
         imagen: "/monsters/bluevenusweed.gif",
         tipo: "Enemigo común",
-        drop: "Zweihander, Refrescante para el corazon",
+        drop: "Zweihander, Refrescante para el corazón",
         ubicacion: "Cavernas (reverse), Entrada (reverse)",
         hp: 100,
         exp: 1000
@@ -721,7 +721,7 @@ export const bestiario = [
         imagen: "/monsters/rosa_de_piedra.png",
         tipo: "Enemigo elite",
         drop: "Escudo de cuero, Vale de comida",
-        ubicacion: "Galeria de marmol",
+        ubicacion: "Galería de mármol",
         hp: 60,
         exp: 60
     },
@@ -732,7 +732,7 @@ export const bestiario = [
         imagen: "/monsters/armadura_de_hacha.gif",
         tipo: "Enemigo elite",
         drop: "Hacha, Coraza de bronce",
-        ubicacion: "Laboratorio de alquimia, Galeria de marmol",
+        ubicacion: "Laboratorio de alquimia, Galería de mármol",
         hp: 32,
         exp: 10
     },
@@ -842,7 +842,7 @@ export const bestiario = [
         imagen: "/monsters/diplocefalo.png",
         tipo: "Enemigo elite",
         drop: "Pentagrama, Tarta",
-        ubicacion: "Galeria de marmol",
+        ubicacion: "Galería de mármol",
         hp: 80,
         exp: 50
     },
@@ -864,7 +864,7 @@ export const bestiario = [
         imagen: "/monsters/gorgona.png",
         tipo: "Enemigo elite",
         drop: "Martillo, espada de piedra",
-        ubicacion: "Galeria de marmol negro",
+        ubicacion: "Galería de mármol negro",
         hp: 240,
         exp: 555
     },
@@ -875,7 +875,7 @@ export const bestiario = [
         imagen: "/monsters/guardian.gif",
         tipo: "Enemigo elite",
         drop: "Gran espada, Vestimenta divina",
-        ubicacion: "Galeria de marmol negro",
+        ubicacion: "Galería de mármol negro",
         hp: 500,
         exp: 1500
     },
@@ -886,7 +886,7 @@ export const bestiario = [
         imagen: "/monsters/gurkha.gif",
         tipo: "Enemigo común",
         drop: "Cuchillo gigante, Chapado en oro",
-        ubicacion: "Galeria de marmol, entrada",
+        ubicacion: "Galería de mármol, entrada",
         hp: 130,
         exp: 50
     },
@@ -963,7 +963,7 @@ export const bestiario = [
         imagen: "/monsters/marioneta.png",
         tipo: "Enemigo común",
         drop: "Pocion inteligente, diadema",
-        ubicacion: "Galeria de marmol",
+        ubicacion: "Galería de mármol",
         hp: 20,
         exp: 30
     },
@@ -1062,7 +1062,7 @@ export const bestiario = [
         imagen: "/monsters/señor_de_los_platos.png",
         tipo: "Enemigo elite",
         drop: "Bola de hierro, bomba de neutrones",
-        ubicacion: "Coliseo, Galeria de marmol",
+        ubicacion: "Coliseo, Galería de mármol",
         hp: 90,
         exp: 90
     },
@@ -1128,7 +1128,7 @@ export const bestiario = [
         imagen: "/monsters/blade.gif",
         tipo: "Enemigo elite",
         drop: "Espada de cazador, Chapada en oro",
-        ubicacion: "Galeria de marmol negra, Entrada, Aposentos de Olrox",
+        ubicacion: "Galería de mármol negra, Entrada, Aposentos de Olrox",
         hp: 380,
         exp: 100
     },
@@ -1139,7 +1139,7 @@ export const bestiario = [
         imagen: "/monsters/guardia_de_lanza.png",
         tipo: "Enemigo común",
         drop: "Javalina, Coraza de hierro",
-        ubicacion: "Muro exterior, Cavernas subterraneas",
+        ubicacion: "Muro exterior, Cavernas subterráneas",
         hp: 20,
         exp: 70
     },
@@ -1150,7 +1150,7 @@ export const bestiario = [
         imagen: "/monsters/mesa_ouija.png",
         tipo: "Enemigo elite",
         drop: "Te de cebada, jugo matutino",
-        ubicacion: "Galeria de marmol",
+        ubicacion: "Galería de mármol",
         hp: 20,
         exp: 20
     },
@@ -1227,7 +1227,7 @@ export const bestiario = [
         imagen: "/monsters/fleaman.gif",
         tipo: "Enemigo común",
         drop: "Takemitsu, Queso",
-        ubicacion: "Galeria de Marmol, Biblioteca larga, Torre del Reloj",
+        ubicacion: "Galería de mármol, Biblioteca larga, Torre del Reloj",
         hp: 11,
         exp: 17
     }

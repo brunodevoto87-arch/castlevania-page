@@ -18,12 +18,12 @@ function History({onBackHome}){
 
                 La exploración del castillo, lugar en el que se desarrolla el juego, es un proceso abierto-cerrado, ya que no se atiene a los clásicos stages o mundos del ya desaparecido sistema side scroll, donde el trayecto en un escenario era irreversible. El jugador está en la libertad de explorar áreas adyacentes del castillo (áreas que no guían directamente al jefe final o al final del juego) y a veces hay que volver a pasar por áreas ya visitadas después de adquirir nuevas habilidades.</p>
 
-                <h2>Elementos Rpg</h2>
+                <h2>Elementos de RPG</h2>
                 <p> Los elementos RPG promueven la exploración desde que Alucard puede aumentar sus atributos. Por ejemplo, ciertas armas y artículos especiales se encuentran en áreas que se hacen accesibles con el uso de alguna habilidad especial (por ejemplo el doble salto). Al empezar el juego por primera vez, estas áreas son imposibles de alcanzar una vez encontradas.
 
                 Los usuarios que escriben Richter o María en los nombres de usuario pueden seleccionar a esos personajes, usa la interfaz y los poderes del juego anterior, no sube de nivel, comprar ni vender objetos ni acceder al menú principal al pausar el juego, pero son inmunes a cambios de estado. Es posible usar combinaciones para acceder a lugares inaccesibles en donde Alucard puede acceder mediante habilidades. No todos los lugares son accesibles para Richter ni para María. El sistema de vidas y puntuación utilizados en Castlevania: Rondo of Blood no valen en este juego.</p>
 
-                <h2>El origen del termino Metroidvania</h2>
+                <h2>El origen del término Metroidvania</h2>
                 <p>La no linealidad de este juego logró ser uno de sus aspectos más aclamados. La prensa especializada en videojuegos a menudo compara el diseño de juego de Symphony of the Night con el ya conocido Metroid, lo que condujo a la invención del término Metroidvania (fusión de los términos Metroid y Castlevania).</p>
              </div>
         </div>

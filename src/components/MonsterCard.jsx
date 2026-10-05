@@ -49,7 +49,7 @@ function MonsterCard({monster}){
                     <span>Drop:</span> <span>{monster.drop || "Ninguno"}</span>
                 </p>
                 <p title={monster.ubicacion || "desconocido"}>
-                    <span>Ubicacion:</span> <span>{monster.ubicacion || "Desconocido"}</span>
+                    <span>Ubicación:</span> <span>{monster.ubicacion || "Desconocido"}</span>
                 </p>
             </div>
         </div>

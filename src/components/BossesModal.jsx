@@ -6,7 +6,7 @@ function BossesModal({onClose}){
             `castlevania sotn ${bossName} boss fight`
         );
         window.open(
-            `http://www.youtube.com/results?search_query=${query}`,"_blank"
+            `https://www.youtube.com/results?search_query=${query}`,"_blank"
         );
     };
     return(
@@ -22,7 +22,7 @@ function BossesModal({onClose}){
                 </button>
                 <div className="boss-modal-header">
                     <h2>Boss Battles</h2>
-                    <p>Los jefes de Simphony of the Night</p>
+                    <p>Los jefes de Symphony of the Night</p>
                 </div>
                 <div className="boss-modal-grid">
                     {bosses.map((boss)=>(
@@ -46,7 +46,7 @@ function BossesModal({onClose}){
                         </div>
                     ))}
                 </div>
-                <p className="boss-modal-footer">Click en un boss para ver la mecanica de pelea</p>
+                <p className="boss-modal-footer">Haz clic en un jefe para ver la mecánica del combate</p>
             </div>
         </div>
     );

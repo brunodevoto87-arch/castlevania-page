@@ -10,7 +10,7 @@ function AboutAlucard({ onBackHome }) {
       <div className="page-content">
         <p>
           Adrian Fahrenheit Țepeș, conocido como Alucard (Alucard es "Drácula"
-          al revés), es el hijo dhampir de Count Dracula y Lisa, una humana.
+          al revés), es el hijo dhampir del conde Drácula y de Lisa, una humana.
           Nacido en 1450, Alucard es mitad humano y mitad vampiro, lo que le
           otorga poderes sobrenaturales pero también una lucha interna constante
           entre su herencia maldita y su humanidad.

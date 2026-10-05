@@ -6,7 +6,7 @@ export const MonsterInverted = [
         imagen: "/monsters/calavera_de_piedra.png",
         tipo: "Enemigo elite",
         drop: "Ninguno",
-        ubicacion: "Galeria de Marmol negro, Coliseo (reverse), Muro exterior (reverse)",
+        ubicacion: "Galería de mármol negro, Coliseo (reverse), Muro exterior (reverse)",
         hp: "???",
         exp: "ninguno"
     },
@@ -17,7 +17,7 @@ export const MonsterInverted = [
         imagen: "/monsters/jackobones.gif",
         tipo: "Enemigo común",
         drop: "Shuriken, Estrella de fuego",
-        ubicacion: "Galeria de marmol negro, Cavernas (reverse), Entrada (reverse), Muro exterior (reverse)",
+        ubicacion: "Galería de mármol negro, Cavernas (reverse), Entrada (reverse), Muro exterior (reverse)",
         hp: 20,
         exp: 150
     },
@@ -28,7 +28,7 @@ export const MonsterInverted = [
         imagen: "/monsters/nova_esqueleton.png",
         tipo: "Enemigo elite",
         drop: "Frasco de monstruo 3, Terminus Est",
-        ubicacion: "Galeria de Marmol Negra, Cavernas (reverse), Entrada (reverse), Muro exterior (reverse)",
+        ubicacion: "Galería de mármol negra, Cavernas (reverse), Entrada (reverse), Muro exterior (reverse)",
         hp: 20,
         exp: 444
     },
@@ -72,7 +72,7 @@ export const MonsterInverted = [
         imagen: "/monsters/medusahead.gif",
         tipo: "Enemigo elite",
         drop: "Piedra resistente, Escudo de Medusa",
-        ubicacion: "Galeria de Marmol Negro, Torre del Reloj,Guarida de Alamuerte, Muralla exterior, Torre del reloj (reverse)",
+        ubicacion: "Galería de mármol Negro, Torre del Reloj,Guarida de Alamuerte, Muralla exterior, Torre del reloj (reverse)",
         hp: 12,
         exp: 20
     },
@@ -148,7 +148,7 @@ export const MonsterInverted = [
         descripcion: "Hierba Venus avanzada. Alimentada con sangre de demonio.",
         imagen: "/monsters/bluevenusweed.gif",
         tipo: "Enemigo común",
-        drop: "Zweihander, Refrescante para el corazon",
+        drop: "Zweihander, Refrescante para el corazón",
         ubicacion: "Cavernas (reverse), Entrada (reverse)",
         hp: 100,
         exp: 1000

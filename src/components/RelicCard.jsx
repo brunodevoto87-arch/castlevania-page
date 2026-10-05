@@ -12,7 +12,7 @@ function RelicCard({relic}){
                     <span>Efecto:</span> <span>{relic.efecto ||  "-"}</span>
                 </p>
                 <p title={relic.ubicacion}>
-                    <span>Ubicacion:</span> <span>{relic.ubicacion || "Desconocida"}</span>
+                    <span>Ubicación:</span> <span>{relic.ubicacion || "Desconocida"}</span>
                 </p>
             </div>
         </div>

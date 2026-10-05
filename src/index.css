@@ -1517,6 +1517,7 @@ footer {
   position: absolute;
   top: 12px;
   right: 12px;
+  padding: 0;
   background: transparent;
   border: none;
   color: #d4af37;
@@ -1679,11 +1680,11 @@ footer {
   box-shadow: 0 0 60px rgba(139, 0, 0, 0.6);
   animation: slideUp 0.4s ease;
 }
-
 .weapons-modal-close {
   position: absolute;
   top: 12px;
   right: 12px;
+  padding: 0;
   background: transparent;
   border: none;
   color: #d4af37;

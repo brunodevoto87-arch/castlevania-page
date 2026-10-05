@@ -67,8 +67,8 @@ export const bosses = [
     },
     {
         id: 156,
-        nombre: "Murcielago de alas Oscuras",
-        descripcion: "Murcielago vampiro gigante",
+        nombre: "Murciélago de alas oscuras",
+        descripcion: "Murciélago vampiro gigante",
         imagen: "/bosses/darkwingbat.gif",
         tipo: "boss",
         drop: "ninguno",
@@ -79,13 +79,13 @@ export const bosses = [
     {
         id: 157,
         nombre: "Muerte",
-        descripcion: "El mejor amigo de Dracula",
+        descripcion: "El mejor amigo de Drácula",
         imagen: ["/bosses/death.gif","/bosses/death-2.gif"],
         tipo: "boss",
         drop: "ninguno",
         hp: 888,
         exp: 4444,
-        ubicacion: "Cavernas Subterraneas (reverse)"
+        ubicacion: "Cavernas subterráneas (reverse)"
     },
     {
         id: 158,
@@ -111,7 +111,7 @@ export const bosses = [
     },
     {
         id: 160,
-        nombre: "Conde Dracula",
+        nombre: "Conde Drácula",
         descripcion: "Destruido por Richter en 1792.(Hace 5 años)",
         imagen: "/bosses/dracula.gif",
         tipo: "boss",
@@ -122,7 +122,7 @@ export const bosses = [
     },
     {
         id: 161,
-        nombre: "Dracula",
+        nombre: "Drácula",
         descripcion: "La verdadera forma del vampiro",
         imagen: "/bosses/dracula-2.gif",
         tipo: "boss",
@@ -133,14 +133,14 @@ export const bosses = [
     },
     {
         id: 162,
-        nombre: "Dracula, forma verdadera",
+        nombre: "Drácula, forma verdadera",
         descripcion: "Señor de Valaquia, padre de Alucard",
         imagen: "/bosses/dracula-3.gif",
         tipo: "boss",
         drop: "ninguno",
         hp: 10000,
         exp: "ninguna",
-        ubicacion: "Galeria de marmol negro (reverse)"
+        ubicacion: "Galería de mármol negro (reverse)"
     },
     {
         id: 163,
@@ -283,18 +283,18 @@ export const bosses = [
         drop: "ninguno",
         hp: 200,
         exp: 500,
-        ubicacion: "Cavernas Subterraneas"
+        ubicacion: "Cavernas subterráneas"
     },
     {
         id: 176,
         nombre: "Shaft",
-        descripcion: "Sacerdote oscuro de Dracula",
+        descripcion: "Sacerdote oscuro de Drácula",
         imagen: "/bosses/shaft.gif",
         tipo: "boss",
         drop: "ninguno",
         hp: 1300,
         exp: "ninguna",
-        ubicacion: "Galeria de marmol negro (reverse)"
+        ubicacion: "Galería de mármol negro (reverse)"
     },
     {
         id: 177,
@@ -305,7 +305,7 @@ export const bosses = [
         drop: "ninguno",
         hp: 666,
         exp: 2000,
-        ubicacion: "Cavernas Subterraneas"
+        ubicacion: "Cavernas subterráneas"
     },
     {
         id: 178,

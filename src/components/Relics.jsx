@@ -61,7 +61,7 @@ function Relics({onBackHome}){
             </div>
             <div id="bestiario-contenedor">
                 {relicsFiltradas.length === 0 ? (
-                    <p className="sin resultados">No se encontraron reliquias con esos filtros.</p>) : (relicsFiltradas.map((relic)=>(
+                    <p className="sin-resultados">No se encontraron reliquias con esos filtros.</p>) : (relicsFiltradas.map((relic)=>(
                         <RelicCard key={relic.id} relic={relic} />
                     ))
                     )}
