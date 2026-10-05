@@ -24,7 +24,7 @@ const features = [
 
 ];
 
-function Features({onNavigate, onOpenBossModal}){
+function Features({onNavigate, onOpenBossModal, onOpenWeaponsModal}){
     return(
         <div className="features-section">
             <h2>Explore the Castle</h2>
@@ -42,6 +42,8 @@ function Features({onNavigate, onOpenBossModal}){
                         ? () => onNavigate("relics")
                         : feature.title === "Boss Battles"
                         ? onOpenBossModal
+                        : feature.title === "Weapons & Shields"
+                        ? onOpenWeaponsModal
                         : undefined
                     }
                     />

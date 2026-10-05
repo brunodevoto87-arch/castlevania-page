@@ -5,6 +5,7 @@ import Hero from "./components/Hero"
 import Features from "./components/Features"
 import Quote from "./components/Quote"
 import CTA from "./components/CTA"
+import WeaponsModal from "./components/WeaponModal"
 import MusicPlayer from "./components/MusicPlayer"
 import Relics from "./components/Relics"
 import Bestiary from "./components/Bestiary"
@@ -18,7 +19,7 @@ function App(){
   const [page, setPage] = useState("home");
   const [bestiaryInverted, setBestiaryInverted] = useState(false);
   const [showBossModal, setShowBossModal] = useState(false);
-
+  const [showWeaponsModal, setShowWeaponsModal] = useState(false);
   const goTo = (target, options = {}) =>{
     setPage(target);
     if (options.inverted !==undefined){
@@ -87,10 +88,15 @@ function App(){
       </section>
       <Features 
       onNavigate={goTo}
-      onOpenBossModal={()=>setShowBossModal(true)} />
+      onOpenBossModal={()=>setShowBossModal(true)}
+      onOpenWeaponsModal={()=> setShowWeaponsModal(true)}
+      />
       <Quote />
       <CTA />
       <Footer />
+      {showWeaponsModal && (
+        <WeaponsModal onClose={()=> setShowWeaponsModal(false)} />
+      )}
       <ScrollButtons />
       {showBossModal &&(
         <BossesModal onClose={() => setShowBossModal(false)}/>
