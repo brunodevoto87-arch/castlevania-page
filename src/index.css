@@ -1819,3 +1819,9 @@ footer {
   line-clamp: 2;
   overflow: hidden;
 }
+.tarjeta-arma img {
+  max-width: 80%;
+  max-height: 80%;
+  image-rendering: pixelated;  /* ← mantiene el look pixelado al agrandar */
+  transform: scale(1.5);        /* ← agranda 1.5x */
+}
